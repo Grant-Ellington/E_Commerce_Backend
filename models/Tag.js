@@ -12,13 +12,8 @@ Tag.init(
       primaryKey: true,
       autoIncrement: true      
     },
-    product_id: {
-      type: Datatypes.INTEGER,
-      //foriegn key
-    },
-    tag_id:{
-      type: Datatypes.INTEGER,
-      //refrence
+    tag_name:{
+      type: Datatypes.STRING
     }
   },
   {
